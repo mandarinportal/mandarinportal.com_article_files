@@ -5,7 +5,7 @@
 #Please give credit to mandarinportal.com
 #This file is for the article located at mandarinportal.com
 
-#this script reads in Simplifed Chinese input and assigns it to a variable called chinese_words
+#this script reads in Simplified Chinese input and assigns it to a variable called chinese_words
 #then grep searches the content and outputs the definition
 #This script only words with Simplified Chinese Characters / Words
 echo "Enter the Simplified Chinese Character or Word that you want to search:"
