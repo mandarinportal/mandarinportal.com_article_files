@@ -11,5 +11,5 @@
 echo "Enter the Simplified Chinese Character or Word that you want to search:"
 read chinese_words
 length=${#chinese_words}
-spaces=$(for ((w=1;w<=$length;w++)); do echo -n "."; done)
-grep "^$(echo $spaces) $chinese_words " current_cc-cedict.txt
+othercontent=$(for ((w=1;w<=$length;w++)); do echo -n "."; done)
+grep "^$(echo $othercontent) $chinese_words " current_cc-cedict.txt
